@@ -42,6 +42,11 @@ public class testCombinatoria {
 		System.out.println("Grade:" + grade + " - Order:" + order + " - ItemNbr:" + itemNbr); 
 		combinat.printlnItem(item);
 		System.out.println("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-");
+		itemNbr = 11111;
+		item = combinat.getItem(grade, order, itemNbr);
+		System.out.println("Grade:" + grade + " - Order:" + order + " - ItemNbr:" + itemNbr); 
+		combinat.printlnItem(item);
+		System.out.println("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-");
 		
 	}
 }
